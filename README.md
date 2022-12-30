@@ -1,14 +1,14 @@
-# Rock Paper Scissors
-A simple command-line based Rock Paper Scissors game written in Python.
-
-# How to Play
-To play the game, run the script in your terminal and follow the prompts. You will be asked to select either 0 for rock, 1 for paper, or 2 for scissors. The computer will then make a selection and the winner will be announced.
-
-# Try and Except
-The try and except block in this script is used to improve the feedback the app gives in the event of an error. If any errors occur during the execution of the script, the user will be given a message to try again later. This helps to make the app more user-friendly and ensure that it doesn't crash unexpectedly.
-
-# ASCII Art
-The game features ASCII art representations of rock, paper, and scissors. These images are sourced from online ASCII art galleries and are stored as string variables in the script.
-
-# Random Module
-The random module is imported at the beginning of the script and is used to generate a random selection for the computer's move. This helps to make the game more unpredictable and adds an element of chance to the outcome.
+<html>
+ 
+  <body>
+    <h1>Rock, Paper, Scissors Game</h1>
+    <p>This is a simple Rock, Paper, Scissors game played between a user and the computer.</p>
+    <h2>Getting Started</h2>
+    <p>To play the game, import the <code>random</code> module and run the code. The user will be prompted to enter a number (0 for rock, 1 for paper, or 2 for scissors). The computer will then make a random selection and the winner will be determined based on the rules of the game.</p>
+    <p>The <code>try</code> and <code>except</code> block improves the app's feedback by providing an organized message in the event of an error.</p>
+    <h2>Game Images</h2>
+    <p>The game includes ASCII art for the rock, paper, and scissors options. These images are available online and can be modified to suit your preferences.</p>
+    <h2>Determining the Winner</h2>
+    <p>A conditional statement is used to determine the winner of the game based on the user's and computer's selections. If the user enters a number outside the range of 0-2, they are deemed the loser. Otherwise, the winner is determined based on the standard rules of Rock, Paper, Scissors (rock beats scissors, scissors beats paper, paper beats rock). In the event of a draw, the result is a tie.</p>
+  </body>
+</html>
